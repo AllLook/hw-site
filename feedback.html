@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<div class="feedback_form">
+    <h2>Пишите письма</h2>
+    <form class="form_1">
+        <div class="label_for">
+            <label for="username">Ваше имя</label>
+            <input type="text" id="username">
+        </div>
+        <br>
+        <div class="label_for">
+            <label for="userpass">Пароль</label>
+            <input type="password" id="userpass">
+        </div>
+        <br>
+        <div class="label_for">
+            <label>Пол</label>
+            <label>Мужской<input type="radio" name="gender" value="male"/></label>
+            <label>Женский<input type="radio" name="gender" value="female"></label>
+        </div>
+        <br>
+        <div class="label_for">
+            <label>Ваши увлечения</label>
+            <label>Музыка<input type="checkbox" name="enthusiasm"></label>
+            <label>Видео<input type="checkbox" name="enthusiasm"></label>
+            <label>Рисование<input type="checkbox" name="enthusiasm"></label>
+        </div>
+        <br>
+        <div class="label_for">
+            <label for="country">Ваша страна</label>
+            <select name="select_country" id="country">
+                <option value="russia">Россия</option>
+                <option value="usa">США</option>
+                <option value="england">Англия</option>
+                <option value="france">Франция</option>
+                <option value="germany">Германия</option>
+            </select>
+        </div>
+        <br>
+        <div class="label_for">
+            <label for="city">Ваш город</label>
+            <select name="select_ciyy" id="city">
+                <option value="moscow">Москва</option>
+                <option value="washington">Вашингтон</option>
+                <option value="london">Лондон</option>
+                <option value="paris">Париж</option>
+                <option value="berlin">Германия</option>
+            </select>
+        </div>
+        <br>
+        <div class="label_for">
+            <label for="userinfo">Кратко о себе</label>
+            <input  class="usinfo" type="textarea" id="userinfo">
+        </div>
+        <div class="feedback_post">
+            <button>Отправить</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

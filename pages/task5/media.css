@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 769px) {
+    .menu {
+        display: flex;
+    }
+    
+    
+    .burger-menu {
+        display: none;
+    }
+}

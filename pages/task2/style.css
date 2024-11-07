@@ -1,0 +1,110 @@
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: #b0d07e;
+    height: 100vh;
+
+}
+
+main{
+    height: 100vh;
+}
+
+.filling{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.filling > h1,h2,h3,ul{
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+p {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.img_1 {
+    width: 60%;
+    margin: auto;
+}
+
+.dish {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 0 auto;
+}
+
+.list_products {
+    width: 100%;
+    margin: 50px auto;
+    font-size: 20px;
+}
+
+
+
+.but button {
+    background-color: rgb(117, 156, 241);
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.but button:hover {
+    background-color: blueviolet;
+    transition: 0,5s;
+}
+
+.but {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.v_player {
+    width: 70%;
+    margin: auto;
+    
+}
+
+.video_1_1 {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 5% auto;
+}
+
+.nav-link {
+    font-weight: bolder !important;
+
+}
+
+.btn {
+    border: 2px solid black;
+}
+
+.but_1 {
+    width: 150px;
+    height: 50px;
+    background-color: #efc863;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.work_1 {
+    margin-bottom: 0;
+}
+
+
